@@ -1,0 +1,29 @@
+// 
+// user.scss
+// Use this to write your custom SCSS
+//
+
+$color-bita:#dc0014;
+$color-bita-white:#fff;
+$color-bita-black:#000;
+
+.fixed-top{
+    z-index: 1051;
+}
+
+.col-3{
+    height: 100vh;
+}
+
+.card {
+    min-height: 300px;
+    .card-header{
+        background-color: $color-bita; 
+        border-color: $color-bita;
+        color: $color-bita-white;
+    }
+}
+
+.btn-link{
+    color: $color-bita-white !important;
+}
